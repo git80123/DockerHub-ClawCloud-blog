@@ -33,6 +33,6 @@ jobs:
         file: ./Dockerfile
         platforms: linux/amd64
         tags: |
-          yourname/django-demo:latest
-          yourname/django-demo:${{ steps.gitversion.outputs.sha_short }}
+          linqinghai/blog:latest
+          linqinghai/blog:${{ steps.gitversion.outputs.sha_short }}
         push: true
